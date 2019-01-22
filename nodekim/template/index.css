@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+
+body{
+    width: 100%;
+}
+
+header{
+    text-align: center;
+    height: 10vh;
+    margin-top: 10vh;
+}
+section{
+    width: 1600px;
+    height: 60vh;
+    margin: 0 auto;
+    font-size: 0;
+}
+nav{
+    width: 350px;
+    height: 60vh;
+    display: inline-block;
+    font-size: 1rem;
+    text-align: center;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+nav:hover{
+    overflow-y: auto;
+}
+nav > ul{
+}
+nav > ul > li{
+    
+    background-color: #ccc;
+    margin: 10px;
+}
+nav > ul > li > a > div.gameImg{
+    
+}   
+nav > ul > li > a > div.gameText{
+    text-align: left;
+    font-size: 1rem;
+    color:white;
+    font-weight: blod;
+}
+nav > ul > li > a > div.gameText >p{
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+article{
+    display: inline-block;
+    width: 1200px;
+    font-size: 1rem;
+    vertical-align: top;
+    height: 60vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+article:hover{
+    overflow-y: scroll;    
+}
+
+article > ul{
+    font-size: 0;
+    text-align: left;
+}
+article > ul >li{
+    display: inline-block;
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+    margin: 10px 50px;
+    vertical-align: top;
+    font-size: 1rem;
+}
+article > ul > li > a{
+    text-align: center;
+}
+article > ul > li > a > div{
+
+}
+article > ul > li > a > div.utubeImg{
+    width: 100%;
+
+}
+article > ul > li > a > div.utubeText{
+    text-align: left;
+}
+section > div.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;  
+    background-color:gray;
+    z-index: 99;
+    font-size: 1rem;
+    color: white;
+}
+section > div.popup > div.close{
+    text-align: right;
+    margin: 30px;
+    padding: 10px;
+}
+section > div.popup > div.pop{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    width: 50vw;
+    transform: translate(-50%, -50%);
+}
+section > div.popup > div.pop > iframe{
+    width: 100%;
+    z-index: 999;
+
+}
+
+footer{
+    background-color: #ccc;
+    margin-top: 10vh;
+    height: 10vh;
+}
